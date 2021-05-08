@@ -1,0 +1,49 @@
+.container {
+  position: relative;
+  margin-top: -60px;
+  width: 100%;
+  height: 100vh;
+}
+canvas {
+  border: solid black 5px;
+  width: 600px;
+  height: 600px;
+  position: absolute;
+  top: calc((100vh - 600px) / 2);
+  left: calc((100% - 600px) / 2);
+}
+h1, h2 {
+  text-align: center;
+  font-size: 2rem;
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(2, 31, 8);
+  margin-top: 30px;
+  margin-bottom: 30px;
+  /* background: blue */
+}
+h1 {
+  font-size: 4rem;
+  font-family: 'Keania One', cursive;
+  text-shadow: 0 0 10px #00eeff;
+}
+body {
+ background: url(libraries/images/nuggies_bg.jpg);
+ background-size: cover;
+}
+h3 {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 0;
+  font-size: 2.5rem;
+  font-weight: 500;
+  letter-spacing: 0.2rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #fff;
+  text-shadow: 0 0 10px #ff0000;
+}
+.game-status {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
