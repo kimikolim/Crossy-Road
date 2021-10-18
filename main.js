@@ -67,8 +67,8 @@ class Chicken {
     this.frameY = 0;
   }
   drawChar() {
-    // ctx2.fillRect(this.x, this.y, this.width, this.height);
-    // ctx2.fillStyle = "yellow";
+    //ctx2.fillRect(this.x, this.y, this.width, this.height);
+    //ctx2.fillStyle = "yellow";
     ctx2.drawImage(chicken_img, this.frameX * this.spriteWidth, this.frameY * this.spriteHeight, this.spriteWidth, this.spriteHeight, this.x, this.y, this.width, this.height)
   }
   updateStatus() {
