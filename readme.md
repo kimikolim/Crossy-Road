@@ -11,7 +11,7 @@ Try it [HERE](https://kimikolim.github.io/Crossy-Road/) to take on the challenge
 
 ### Main
 
-![Main Page]()
+![Main Page](https://github.com/kimikolim/Crossy-Road/blob/master/uploads/CrossyRoad.png?raw=true)
 
 &nbsp;
 
